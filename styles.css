@@ -1,0 +1,62 @@
+body
+{
+    background-color: grey;    
+}
+
+.IntroText
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    animation: mover 6s linear infinite;
+}
+
+.Sandbox 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+.Rock
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 3px;
+}
+
+.Paper
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 3px;
+}
+
+.Scissors
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 3px;
+}
+
+.Sandbox :hover
+{
+    background-color: blanchedalmond;
+}
+
+.ScoreText
+{
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
